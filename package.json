@@ -8,6 +8,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext ts,tsx",
+    "prettier:check": "prettier -c",
     "lint:fix": "yarn lint --fix",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install"
